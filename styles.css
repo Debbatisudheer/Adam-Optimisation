@@ -40,7 +40,5 @@ footer {
     .container {
         width: 90%; /* Adjust container width for smaller screens */
     }
-    footer {
-        position: static; /* Remove fixed positioning for smaller screens */
-    }
+   
 }
