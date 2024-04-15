@@ -1,3 +1,7 @@
+output analysis: 
+================
+
+
 Epoch 1/10
 1875/1875 ━━━━━━━━━━━━━━━━━━━━ 49s 15ms/step - accuracy: 0.8889 - loss: 0.3493 - val_accuracy: 0.9825 - val_loss: 0.0551
 Epoch 2/10
@@ -22,22 +26,22 @@ Epoch 10/10
 
 
     Training and Validation Accuracy: 
-    ---------------------------------
+    ================================
     
     The accuracy of the model on the training data steadily increases over epochs, reaching very high values close to 1 (or 100%). Similarly, the accuracy on the validation data also increases, indicating that the model is generalizing well to unseen data.
 
     Training and Validation Loss:
-    -----------------------------
+    =============================
     
     The loss (error) of the model on both training and validation data decreases consistently over epochs. This decrease in loss indicates that the model is improving in its ability to make accurate predictions.
 
     Training Time: 
-    --------------
+    ==============
     
     The time taken for each epoch varies, with later epochs generally taking less time compared to earlier epochs. This could be due to various factors such as the complexity of the model, the amount of data being processed, and the computational resources available.
 
     Final Performance:
-    -----------------
+    ===================
     
     After 10 epochs, the model achieves a very high accuracy on both the training and validation data, indicating that it has learned the patterns in the data well and can make accurate predictions.
 
