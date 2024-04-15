@@ -22,3 +22,24 @@ p {
     color: black;
     line-height: 1.6;
 }
+/* Footer Styles */
+footer {
+    background-color: #32612D;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%; /* Adjust container width for smaller screens */
+    }
+    footer {
+        position: static; /* Remove fixed positioning for smaller screens */
+    }
+}
