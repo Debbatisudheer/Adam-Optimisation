@@ -22,6 +22,17 @@ p {
     color: black;
     line-height: 1.6;
 }
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img {
+    max-width: 30%; /* Adjust image size */
+    height: auto;
+}
 
 /* Footer Styles */
 footer {
@@ -39,6 +50,14 @@ footer {
 @media only screen and (max-width: 600px) {
     .container {
         width: 90%; /* Adjust container width for smaller screens */
+    }
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header img {
+        max-width: 100%;
+        margin: 10px; /* Adjust margin for spacing */
     }
    
 }
