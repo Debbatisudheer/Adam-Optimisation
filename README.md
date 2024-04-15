@@ -42,3 +42,12 @@ Epoch 10/10
     After 10 epochs, the model achieves a very high accuracy on both the training and validation data, indicating that it has learned the patterns in the data well and can make accurate predictions.
 
 Overall, the output suggests that the Adam optimizer effectively minimized the loss function and helped the model converge to a satisfactory level of performance within the given number of epochs.
+
+covergence:
+=============
+
+In the provided analysis, convergence is indirectly observed through the trends in training and validation loss over epochs. Convergence refers to the point at which the optimization process stabilizes, and further iterations do not significantly improve the model's performance.
+
+In the context of training neural networks, convergence is typically achieved when the loss function reaches a plateau or stabilizes at a low value, indicating that the model has learned the underlying patterns in the data.
+
+Additionally, convergence can also be inferred from other metrics such as accuracy. When the accuracy metrics plateau or stabilize at high values, it further supports the notion that the model has converged.
